@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"test/internal/handler"
+
+	"github.com/aleks0ps/test/internal/handler"
 )
 
 func main() {
-	fmt.Printf("hello %s\n", handler.Imported)
+	fmt.Printf("hello %s\n", handler.Test)
 }
